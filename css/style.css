@@ -1,0 +1,150 @@
+body{
+    line-height: 1.5;
+   /* Set line spacing */
+}
+
+
+header, nav{
+    margin: 20px;
+    padding: 5px 10px;
+    /* Set padding and margin */
+
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 10px 0 0;
+    background-color: gainsboro;
+    padding: 5px;
+    font-size: large;
+    /* Set display, margin, padding, font-size, background-color */
+
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    /* Set text decoration*/
+}
+nav a:active{
+
+    /* Set color */
+}
+a:visited{
+    color: black
+    /* Set color */
+
+}
+
+nav a.current{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    color: blue;
+    text-transform: uppercase;
+
+    /* Set text decoration, transformation, and underline properties */
+}
+
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+   /*Set font and font size*/
+
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    /*Set font, font size, and alignment*/
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    /*Set font size*/
+
+}
+
+h1, h2, h3{
+    margin: 15px;
+    /*Set margin */
+
+}
+.grid{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: auto;
+    /*Set width, margin, border properties, background color, and grid properties */
+}
+
+.grid div{
+    display: grid;
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    /* Set border properties, padding, and background color */
+
+}
+
+.grid img{
+    display: grid;
+    width: 90%;
+    border: solid 2px black;
+    margin: 10px;
+    /* Set width, margin, and display */
+}
+
+@media screen{
+    .grid{
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 10px;
+        margin: auto;
+
+    }
+    .grid div{
+        display: grid;
+        padding: 10px;
+        border: solid 2px black;
+        border-radius: 20px;
+        background-color: #f0f0f0;
+    }
+    .grid img{
+        display: grid;
+        width: 90%;
+        border: solid 2px black;
+        margin: auto;
+        height: auto;
+    }
+}
+.grid div:nth-child(3n+1)  {
+    /* Set box shadow */
+    }
+
+.grid div:nth-child(3n)  {
+    /* Set box shadow */ 
+}
+
+.grid div:nth-child(3n+2)  {
+     /* Set box shadow */
+}
+    
+
+p + p {
+     /* Set indentation */
+  }
+  
+p{
+     /* Set margin */
+}
+
+
+.grid ul li{
+    /* Set margin, line-spacing, list styling  */
+}
